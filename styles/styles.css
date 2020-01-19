@@ -1,3 +1,18 @@
+/* Header */
+nav {
+	background-color: #00A4C3;
+}
+.navbar {
+	height: 60px;
+}
+.page {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+}
+
 /* Info Section */
 .info-section .col {
     background-color: white;
