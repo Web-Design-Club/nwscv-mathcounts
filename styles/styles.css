@@ -1,24 +1,22 @@
-/*boxes*/
-.col {
+/* Info Section */
+.info-section .col {
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.25);
-    padding: 0px 80px 30px;
+    padding: 0px 15px 30px;
     text-align: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 80px 0px 30px 0px;
 }
-
+/* Boxes */
 #contestBox {
     position: relative;
     right: 60px;
 }
-
 #winnerBox {
     position: relative;
     left: 60px;
 }
-
-/*titles*/
+/* Titles */
 .boxTitle {
     font-family: Montserrat;
     font-weight: 700;
@@ -29,23 +27,19 @@
     bottom: 20px;
     padding: 0px 10px;
 }
-
 #contestTitle {
     color: rgb(237, 28, 36);
     margin: 0px 25px; /*increase middle value for less cut in border*/
 }
-
 #involveTitle {
     color: rgb(38,34,98);
     margin: 0px 55px; 
 }
-
 #winnerTitle {
     color: rgb(0,164,195);
     margin: 0px 50px;
 }
-
-/*buttons*/
+/* Buttons */
 .button {
     color: white;
     border: none;
@@ -58,23 +52,19 @@
     border-width: 1.5px;
     border-style: solid;
 }
-
 .button:hover {
     background-color: white;
     transition-duration: 0.4s;
 }
-
 #contestButton {
     background-color: rgb(237, 28, 36);
     border-color: rgb(237, 28, 36);
     padding: 10px 30px;
 }
-
 #contestButton:hover {
     background-color: white;
     color: rgb(237, 28, 36);
 }
-
 .involveButton {
     background-color: rgb(38,34,98);
     margin: 0px 7.5px;
@@ -82,23 +72,19 @@
     border-color: rgb(38,34,98);
     width: 145px;
 }
-
 .involveButton:hover {
     color: rgb(38,34,98);
 }
-
 #winnerButton {
     background-color: rgb(0,164,195);
     padding: 10px 25px;
     border-color: rgb(0,164,195);
 }
-
 #winnerButton:hover {
     background-color: white;
     color:rgb(0,164,195);
 }
-
-/*info*/
+/* Info */
 .info {
     font-family: Montserrat;
     font-size: 16px;
@@ -108,35 +94,12 @@
     margin: 0px 10px 20px 15px;
 }
 
-.container img {
-
-  position: absolute;
-
-  width:300px;
-  height: 200px;
-  
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-
-  opacity: 0.8;
-  transition-duration: 0.4s;
-}
-
-.container img:hover{
-    opacity: 1;
-    width: 330px;
-    height: 220px;
-
-
-    
-    transform: translate(-5%, -10%)
-}
-
 /* Sponsors */
+.sponsors {
+    margin-top: 100px;
+}
 .sponsortitle {
-  padding: 16px 32px;r
+  padding: 16px 32px;
   text-align: center;
   font-family: Montserrat;
   font-style: normal;
@@ -155,3 +118,20 @@
     opacity: 1;
     font-size:44px;
 }
+.sponsors .container img {
+    position: absolute;
+    width:300px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+    transition-duration: 0.4s;
+  }
+  
+.sponsors .container img:hover{
+    opacity: 1;
+    width: 330px;
+    height: 220px;
+    transform: translate(-5%, -10%)
+  }
