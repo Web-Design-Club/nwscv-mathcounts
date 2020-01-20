@@ -12,6 +12,10 @@ nav {
 	font-size: 16px;
 	line-height: 20px;
 }
+.navbar-brand img {
+    width: 225px;
+    height: auto;
+}
 
 /* Home Image */
 .home-img img {
