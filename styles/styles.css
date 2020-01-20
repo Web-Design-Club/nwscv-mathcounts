@@ -13,6 +13,12 @@ nav {
 	line-height: 20px;
 }
 
+/* Home Image */
+.home-img img {
+    width: 100%;
+    height: auto;
+}
+
 /* Info Section */
 .info-section .col {
     background-color: white;
