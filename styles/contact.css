@@ -2,9 +2,10 @@
 	position: relative;
 
 	height: 5px;
-	width: 150%;
-	right: 50%;
+	width: 120%;
+	right: 500px;
 	background-color: #C4C4C4;
+
 }
 
 
@@ -23,8 +24,8 @@
 	width: 400px;
 	position :relative;
 	font-weight: bold;
-	right: 30%;
-	bottom: 50%;
+	right: 300px;
+	bottom: 45px;
 	font-size: 50px;
 	background-color: #FFFFFF;
 }
