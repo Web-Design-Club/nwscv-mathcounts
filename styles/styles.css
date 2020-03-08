@@ -192,3 +192,7 @@ nav {
     color: #00A4C3;
     text-decoration: none;
 }
+.footer img {
+    width: 20px;
+    height: 15px;
+}
