@@ -166,10 +166,20 @@ nav {
     height: 120px;
 }
 
+/*Bottom Message*/
+#bottomMsg {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    margin-bottom: -30px;
+}
+
 /* Footer */
 .footer {
     position: relative;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 50px;
     left: 10;
     bottom: 10;
