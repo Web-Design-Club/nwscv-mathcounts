@@ -158,17 +158,18 @@ $(function(){
 
     var index2 = (file == 'index.html') ? 'views/' : '';
     var home2 = (file == 'index.html') ? '<div class="row"><a href="#">Home</a></div>' : '<div class="row"><a href="../index.html">Home</a></div>';
-    var contest2 = (file == 'contest.html') ? '<div class="row"><a href="#">Contest</a></div>' : '<div class="row"><a href="' + index2 + 'contest.html">Contest</a></div>';
-    var winner2 = (file == 'winners.html') ? '<div class="row"><a href="#">Past Winners</a></div>' : '<div class="row"><a href="' + index2 + 'winners.html">Past Winners</a></div>';
-    var sponsor2 = (file == 'sponsor.html') ? '<div class="row"><a href="#">Sponsor</a></div>' : '<div class="row"><a href="' + index2 + 'sponsor.html">Sponsor</a></div>';
-    var volunteer2 = (file == 'volunteer.html') ? '<div class="row"><a href="#">Volunteer</a></div>' : '<div class="row"><a href="' + index2 + 'volunteer.html">Volunteer</a></div>';
-    var contact2 = (file == 'contact.html') ? '<div class="row"><a href="#">Contact Us</a></div>' : '<div class="row"><a href="' + index2 + 'contact.html">Contact Us</a></div>';
-    var footer = `        <div class="container">
+    var contest2 = (file == 'contest.html') ? '<div class="row"><a href="#">Contest</a></div>' : `<div class="row"><a href="${index2}contest.html">Contest</a></div>`;
+    var winner2 = (file == 'winners.html') ? '<div class="row"><a href="#">Past Winners</a></div>' : `<div class="row"><a href="${index2}winners.html">Past Winners</a></div>`;
+    var sponsor2 = (file == 'sponsor.html') ? '<div class="row"><a href="#">Sponsor</a></div>' : `<div class="row"><a href="${index2}sponsor.html">Sponsor</a></div>`;
+    var volunteer2 = (file == 'volunteer.html') ? '<div class="row"><a href="#">Volunteer</a></div>' : `<div class="row"><a href="${index2}volunteer.html">Volunteer</a></div>`;
+    var contact2 = (file == 'contact.html') ? '<div class="row"><a href="#">Contact Us</a></div>' : `<div class="row"><a href="${index2}contact.html">Contact Us</a></div>`;
+    var icon2 = (file == 'index.html') ? '' : '../';
+    var footer = `<div class="container">
             <div class="row">
                 <div class="col footer-col">
                     <div class="row"><h2>Pages</h2></div>
                     <div class="row">
-                        <div class="col">            
+                        <div class="col">
                             ${home2}
                             ${contest2}
                             ${winner2}
@@ -188,7 +189,7 @@ $(function(){
                         </div>
                         <div class="col footer-col">
                             <div class="row"><h2>Contact Us</h2></div>
-                            <div class="row"><a href="mailto:coord.nwscvmathcounts@gmail.com"><img src="images/email_icon.png">coord.nwscvmathcounts@gmail.com</a></div>
+                            <div class="row"><a href="mailto:coord.nwscvmathcounts@gmail.com"><img src="${icon2}images/email_icon.png">coord.nwscvmathcounts@gmail.com</a></div>
                         </div>
                     </div>
                 </div>
