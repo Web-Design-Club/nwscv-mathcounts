@@ -1,12 +1,7 @@
-#title{
+#pastWinnersTitle{
     padding-top: 100px;
     padding-right: 100px;
     padding-left: 100px;
-    width: 564px;
-    height: 48px;
-
-    width: 564px;
-    height: 48px;
 
     font-family: Montserrat;
     font-style: normal;
@@ -18,12 +13,76 @@
     color: #000000;
 }
 
-#title2{
-    padding-top: 75px;
+#accordionExample{
+    padding-top: 50px;
+    padding-right: 100px;
     padding-left: 100px;
+}
 
-    width: 1132px;
-    height: 379px;
+#year2020{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.55);
+}
+
+#year2019{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.55);
+}
+
+#year2018{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.55);
+}
+
+#year2017{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.55);
+}
+
+#year2016{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.55);
+}
+
+#checkOutTitle{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 
     font-family: Montserrat;
     font-style: normal;
@@ -35,10 +94,9 @@
 }
 
 #description{
+    padding-top: 15px;
     padding-left: 100px;
-    
-    width: 1082px;
-    height: 297px;
+    padding-right: 100px;
 
     font-family: Montserrat;
     font-style: normal;
@@ -48,10 +106,4 @@
     text-indent: 30px;
 
     color: rgba(0, 0, 0, 0.55);
-}
-
-#list{
-    padding-top: 100px;
-    padding-right: 100px;
-    padding-left: 100px;
 }
