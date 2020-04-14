@@ -164,7 +164,8 @@ $(function(){
     var volunteer2 = (file == 'volunteer.html') ? '<div class="row"><a href="#">Volunteer</a></div>' : `<div class="row"><a href="${index2}volunteer.html">Volunteer</a></div>`;
     var contact2 = (file == 'contact.html') ? '<div class="row"><a href="#">Contact Us</a></div>' : `<div class="row"><a href="${index2}contact.html">Contact Us</a></div>`;
     var icon2 = (file == 'index.html') ? '' : '../';
-    var footer = `<div class="container">
+    var footer = 
+        `<div class="container">
             <div class="row">
                 <div class="col footer-col">
                     <div class="row"><h2>Pages</h2></div>
@@ -178,24 +179,20 @@ $(function(){
                             ${sponsor2}
                             ${volunteer2}
                             ${contact2}
-                            </div>
-                            </div>
-                        </div>
-                        <div class="col footer-col">
-                            <div class="row"><h2>Links</h2></div>
-                            <div class="row"><a href="https://www.cspeef.org/competitions/">Other CA Chapters</a></div>
-                            <div class="row"><a href="https://www.cspeef.org/">State Website</a></div>
-                            <div class="row"><a href="https://www.mathcounts.org/">National Website</a></div>
-                        </div>
-                        <div class="col footer-col">
-                            <div class="row"><h2>Contact Us</h2></div>
-                            <div class="row"><a href="mailto:coord.nwscvmathcounts@gmail.com"><img src="${icon2}images/email_icon.png"> coord.nwscvmathcounts@gmail.com</a></div>
                         </div>
                     </div>
                 </div>
-            </div>`
-
-
+                <div class="col footer-col">
+                    <div class="row"><h2>Links</h2></div>
+                    <div class="row"><a href="https://www.cspeef.org/competitions/">Other CA Chapters</a></div>
+                    <div class="row"><a href="https://www.cspeef.org/">State Website</a></div>
+                    <div class="row"><a href="https://www.mathcounts.org/">National Website</a></div>
+                </div>
+                <div class="col footer-col">
+                    <div class="row"><h2>Contact Us</h2></div>
+                    <div class="row"><a href="mailto:coord.nwscvmathcounts@gmail.com"><img src="${icon2}images/email_icon.png"> coord.nwscvmathcounts@gmail.com</a></div>
+                </div>
+            </div>
+        </div>`;
     $('.footer').html(footer);
-    
 })
