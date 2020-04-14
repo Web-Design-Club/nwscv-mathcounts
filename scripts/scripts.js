@@ -189,7 +189,7 @@ $(function(){
                         </div>
                         <div class="col footer-col">
                             <div class="row"><h2>Contact Us</h2></div>
-                            <div class="row"><a href="mailto:coord.nwscvmathcounts@gmail.com"><img src="${icon2}images/email_icon.png">coord.nwscvmathcounts@gmail.com</a></div>
+                            <div class="row"><a href="mailto:coord.nwscvmathcounts@gmail.com"><img src="${icon2}images/email_icon.png"> coord.nwscvmathcounts@gmail.com</a></div>
                         </div>
                     </div>
                 </div>
