@@ -8,6 +8,9 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+
+    <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -46,22 +49,24 @@
         <img src="images/Home_Page.png">
     </div>
 
-    <!--modal-->
-    <div id="btnContainer">
-        <button id="alertModalBtn">Alert</button>
-    </div>
-
+    <!-- modal -->
     <div id="modalBackground">
         <div id="alertModal" class="info">
-            <span id="close">&times;</span>
-            <h1 id="modalTitle">Alert!</h1>
+            <div class="row">
+                <div class="col-11">
+                    <h1 id="modalTitle">Announcement</h1>
+                </div>
+                <div class="col-1">
+                    <span id="close">&times;</span>
+                </div>
+            </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>    
         </div>
     </div>
 
     <!--info section-->
     <div class="info-section">
-        <div style="margin-top:40px" class="container">
+        <div style="margin-top:120px" class="container">
             <div class="row">
                 <div id="contestBox" class="col">
                     <h1 id="contestTitle" class="boxTitle">Chapter Contest</h1>
@@ -162,28 +167,6 @@
     </div>
   
     <!-- Javascript -->
-    <script>
-        var background = document.getElementById("modalBackground")
-        var modal = document.getElementById("alertModal");
-        var btn = document.getElementById("alertModalBtn");
-        var span = document.getElementById("close");
-
-        btn.onclick = function() {
-            modal.style.display = "block";
-            background.style.display = "block";
-        }
-
-        span.onclick = function() {
-            modal.style.display = "none";
-            background.style.display = "none";
-        }
-
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
     <script src="scripts/scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
