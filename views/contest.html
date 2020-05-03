@@ -4,81 +4,150 @@
     <meta charset="utf-8">
     <title>NWSCV Mathcounts</title>
 
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="../styles/contest.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-        <a class="navbar-brand" href="../index.html">
-            <img src="../images/Logo.png">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item page mx-lg-5">
-                    <a class="nav-link" href="../index.html">Home</span></a>
-                </li>
-                <li class="nav-item active page mx-lg-5">
-                    <a class="nav-link" href="#">Contest <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item page mx-lg-5">
-                    <a class="nav-link" href="winners.html">Past Winners</a>
-                </li>
-                <li class="nav-item page mx-lg-5">
-                    <a class="nav-link" href="sponsor.html">Sponsor</a>
-                </li>
-                <li class="nav-item page mx-lg-5">
-                    <a class="nav-link" href="volunteer.html">Volunteer</a>
-                </li>
-                <li class="nav-item page mx-lg-5">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="header"></div>
 
-    <!-- Replace this line with your code -->
-
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col footer-col">
-                    <div class="row"><h2>Pages</h2></div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="row"><a href="../index.html">Home</a></div>
-                            <div class="row"><a href="#">Contest</a></div>
-                            <div class="row"><a href="winners.html">Past Winners</a></div>
-                        </div>
-                        <div class="col">
-                            <div class="row"><a href="sponsor.html">Sponsor</a></div>
-                            <div class="row"><a href="volunteer.html">Volunteer</a></div>
-                            <div class="row"><a href="contact.html">Contact Us</a></div>
-                        </div>
+    <div class="contestPage text">
+            <div class="container">
+                <!--title-->
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6" id="contPageTitle">Chapter Contest</div>
+                    <div class="col-3"></div>
+                </div>
+                <div class="row contBox">
+                        <div class="col-5" id="contRectLeft">.</div>
+                        <div class="col-2"></div>
+                        <div class="col-5" id="contRectRight"></div>
+                </div>
+                <!--basic info-->
+                <div class="row">
+                    <div class="col">
+                        <h2 class="title">BASIC INFORMATION</h2>
+                        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Sunt a deserunt mollit laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Sunt a deserunt mollit laborum. Lorem ipsum dolor sit am</p>
                     </div>
                 </div>
-                <div class="col footer-col">
-                    <div class="row"><h2>Links</h2></div>
-                    <div class="row"><a href="https://www.cspeef.org/competitions/">Other CA Chapters</a></div>
-                    <div class="row"><a href="https://www.cspeef.org/">State Website</a></div>
-                    <div class="row"><a href="https://www.mathcounts.org/">National Website</a></div>
+                <!--schedule-->
+                <div class="row">
+                    <div class="col">
+                        <h2 class="title text" id="scheduleTitle">SCHEDULE</h2>
+                    </div>
                 </div>
-                <div class="col footer-col">
-                    <div class="row"><h2>Contact Us</h2></div>
-                    <div class="row"><a href="mailto:coord.nwscvmathcounts@gmail.com">coord.nwscvmathcounts@gmail.com</a></div>
+                <div class="row">
+                    <div class="col-3">
+                        <h3 class="text scheduleSubtitle">DATE</h3>
+                        <ul class="scheduleList text paragraph">
+                            <li>mm / dd / yyyy</li>
+                            <li>mm / dd / yyyy</li>
+                            <li>mm / dd / yyyy</li>
+                            <li>mm / dd / yyyy</li>
+                            <li>mm / dd / yyyy</li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <h3 class="text scheduleSubtitle">EVENT</h3>
+                        <ul class="scheduleList text paragraph">
+                            <li>mm / dd / yyyy</li>
+                            <li>mm / dd / yyyy</li>
+                            <li>mm / dd / yyyy</li>
+                            <li>mm / dd / yyyy</li>
+                            <li>mm / dd / yyyy</li>
+                        </ul>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-5" id="contestPic"></div>
+                </div>
+                <!--rules-->
+                <div class="row">
+                    <div class="col">
+                        <h2 class="title text">RULES</h2>
+                        <p>
+                            <ul class="text paragraph">
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </li>
+                                <li>Tempor incididunt ut labore et dolore magna </li>
+                                <li>Aliqua. Ut enim ad minim veniam, quis </li>
+                                <li>Nostrud exercitation ullamco laboris. Sunt</li>
+                                <li>A deserunt mollit laborum. Lorem ipsum </li>
+                                <li>Dolor sit amet, consectetur adipiscing </li>
+                                <li>Elit, sed do eiusmod tempor incididunt</li>
+                                <li>Ut labore et dolore magna aliqua. Ut enim</li>
+                                <li>ad minim veniam, quis nostrud exercitation ullamco laboris.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <!--forms-->
+                <div class="row">
+                    <div class="col">
+                        <h2 class="title">FORMS</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Sunt a deserunt mollit laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-5" id=formPic></div>
+                </div>
+            <!--contacts-->
+            <div class="row">
+                <div class="col">
+                        <h2 class="title">CONTACT</h2>
                 </div>
             </div>
+            <div class="row" id="contactRow">
+                <!--main col-->
+                <div class="col-7" id="contactMainCol">
+                    <div class="row contactSubRow">
+                        <div class="col-3 contactName">Ms. abc:</div>
+                        <div class="col-9">
+                            <p>(123) 456-789</p>
+                            <p>abc@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="row contactSubRow">
+                            <div class="col-3 contactName">Mr. abc:</div>
+                            <div class="col-9">
+                                <p class="contactInfo">(123) 456-789</p>
+                                <p class="contactInfo">abc@gmail.com</p>
+                            </div>
+                        </div>
+                    <div class="row contactSubRow">
+                            <div class="col-3 contactName">Ms. abc:</div>
+                            <div class="col-9">
+                                <p class="contactInfo">(123) 456-789</p>
+                                <p class="contactInfo">abc@gmail.com</p>
+                            </div>
+                    </div>
+                    <div class="row contactSubRow">
+                            <div class="col-3 contactName">Mr. abc:</div>
+                            <div class="col-9">
+                                <p class="contactInfo">(123) 456-789</p>
+                                <p class="contactInfo">abc@gmail.com</p>
+                            </div>
+                    </div>
+                </div>
+                <!--contact pic-->
+                <div class="col-5" id=contactPic></div>
+            </div>
         </div>
-    </div>
+    
+
+    <div class="footer">
+
   
     <!-- Javascript -->
-    <script src="scripts/scripts.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="../scripts/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
