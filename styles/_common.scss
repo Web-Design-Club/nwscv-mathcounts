@@ -1,0 +1,54 @@
+/* Header */
+.header {
+    background-color: $lightBlue;
+    height: 60px;
+
+    .page {
+        font-family: $font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .navbar-brand img {
+        width: 225px;
+        height: auto;
+    }
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    margin-top: 50px;
+    padding: 50px;
+    left: 10;
+    bottom: 10;
+    width: 100%;
+    background-color: $darkBlue;
+    color: white;
+    text-align: left;
+    font-family: $font;
+
+    .footer-col {
+        margin-left: 100px;
+    }
+
+    .row {
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+            color: $lightBlue;
+            text-decoration: none;
+        }
+    }
+
+    img {
+        width: 20px;
+        height: 15px;
+    }
+}

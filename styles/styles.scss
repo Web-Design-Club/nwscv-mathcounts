@@ -1,0 +1,15 @@
+$font: Montserrat;
+$transDuration: 0.4s;
+$lightBlue: rgb(0,164,195);
+$darkBlue: rgb(38,34,98);
+$red: rgb(237, 28, 36);
+$lightGray: rgba(0, 0, 0, 0.25);
+$darkGray: rgba(0, 0, 0, 0.5);
+
+@import "common";
+@import "home";
+@import "contest";
+@import "winners";
+@import "sponsor";
+@import "volunteer";
+@import "contact";
