@@ -512,13 +512,22 @@
   text-indent: 20%;
 }
 
-#contact .rectangle {
+#contact {
+  font-family: Montserrat;
+}
+#contact .title-container {
+  margin-top: 100px;
+  margin-left: 1%;
+  position: relative;
+}
+#contact .title-container .rectangle {
   position: absolute;
+  top: -8px;
   height: 5px;
   width: 120%;
   background-color: #C4C4C4;
 }
-#contact .title {
+#contact .title-container .title {
   text-align: center;
   width: 300px;
   position: relative;
@@ -528,20 +537,54 @@
   font-size: 50px;
   background-color: #FFFFFF;
 }
-#contact .paragraph {
-  width: 75%;
-  position: relative;
-  left: 10%;
-  font-size: 20px;
-  color: rgba(0, 0, 0, 0.55);
-}
-#contact .ptitle {
+#contact .info-container .title {
   text-align: center;
   font-weight: 600;
   position: relative;
   left: -10%;
   font-size: 30px;
 }
-#contact hr {
-  height: 150px;
+#contact .info-container .paragraph {
+  margin-top: 40px;
+  width: 75%;
+  position: relative;
+  left: 10%;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.55);
+}
+#contact .img-container {
+  position: relative;
+  top: -5%;
+}
+#contact .img-container img:first-child {
+  position: relative;
+  width: 50%;
+  left: 20%;
+}
+#contact .img-container .links-container {
+  width: 75%;
+  position: relative;
+  bottom: 50px;
+}
+#contact .img-container .links-container p {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  right: 8%;
+}
+#contact .img-container .links-container .link {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  right: 8%;
+}
+#contact .img-container .links-container .link a {
+  color: rgba(0, 0, 0, 0.55);
+}
+#contact .img-container img:last-child {
+  position: relative;
+  width: 40%;
+  left: 25%;
+  bottom: 50px;
 }
