@@ -1,3 +1,11 @@
+.col .involveButton {
+  margin-top: 20px;
+} 
+
+#winnerButton {
+  margin-top: 20px;
+}
+
 /* Header */
 .header {
   background-color: #00a4c3;
