@@ -1,0 +1,90 @@
+#contact {
+	font-family: $font;
+
+	.title-container {
+		margin-top: 100px;
+		margin-left: 1%;
+		position: relative;
+
+		.rectangle {
+			position: absolute;
+			top: -8px;
+			height: 5px;
+			width: 120%;
+			background-color: #C4C4C4;
+		}
+
+		.title {
+			text-align: center;
+			width: 300px;
+			position :relative;
+			font-weight: bold;
+			right: -200px;
+			bottom: 45px;
+			font-size: 50px;
+			background-color: #FFFFFF;
+		}
+	}
+	
+	.info-container {
+		.title {
+			text-align:center;
+			font-weight: 600;
+			position: relative;
+			left: -10%;
+			font-size: 30px;
+		}
+
+		.paragraph {
+			margin-top: 40px;
+			width: 75%;
+			position: relative;
+			left: 10%;
+			font-size: 20px;
+			color: rgba(0, 0, 0, 0.55);
+		}
+	}
+
+	.img-container {
+		position: relative;
+		top: -5%;
+
+		img:first-child {
+			position: relative;
+			width:50%;
+			left: 20%;
+		}
+
+		.links-container {
+			width: 75%;
+			position: relative;
+			bottom: 50px;
+
+			p {
+				font-size: 30px;
+				font-weight: 600;
+				text-align: center;
+				position: relative;
+				right:8%;
+			}
+			
+			.link {
+				font-size: 20px;
+				text-align: center;
+				position: relative;
+				right: 8%;
+				
+				a {
+					color: rgba(0, 0, 0, 0.55);
+				}
+			}
+		}
+
+		img:last-child {
+			position: relative;
+			width:40%;
+			left: 25%;
+			bottom: 50px;
+		}
+	}
+}

@@ -1,0 +1,92 @@
+$red: rgb(237, 28, 36);
+$gray: rgba(0, 0, 0, 0.55);
+
+.contestPage {
+    font-family: Montserrat, sans-serif;
+     
+    #contPageTitle {
+        margin-top: 100px;
+        width: 100px;
+        text-align: center;
+        font-size: 45px;
+        font-weight: bold;
+        color: $red;
+        background-color: white;
+    }
+     
+    .contBox {
+        position: relative;
+        bottom: 35px;
+        text-indent: -99999px;
+        height: 50px;
+    }
+    #contRectLeft {
+        right: 110px;
+        background-image: linear-gradient(to right, white, $red);
+        height: 15%;
+    }
+     
+    #contRectRight {
+        left: 110px;
+        background-image: linear-gradient(to left, white, $red);
+        height: 15%;
+    }
+     
+    .title {
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 40px;
+    }
+     
+    #scheduleTitle {
+        margin-bottom: 30px;
+    }
+     
+    .paragraph {
+        text-indent: 20px;
+        font-size: 18px;
+        color: $gray;
+        margin-top: 20px;
+    }
+     
+    .scheduleList {
+        list-style-type: none;
+        text-indent: 0px;
+        padding-left: 30px;
+        font-weight: 600;
+        line-height: 250%;
+    }
+     
+    .scheduleSubtitle {
+        font-weight: bold;
+        color: $gray;
+        padding-left: 30px;
+        font-size: 25px;
+    }
+     
+    #contestPic, #formPic, #contactPic {
+        background-color: rgb(196,196,196);
+        padding: 50px;
+    }
+    
+    .contactName {
+        font-size: 18px;
+        font-weight: 900;
+        color: $gray;
+    }
+    
+    #contactRow {
+        margin-top: 30px;
+    }
+    
+    #contactMainCol {
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+    
+    .contactSubRow {
+        margin-bottom: 20px;
+        font-size: 18px;
+        color: $gray;
+    }
+}
